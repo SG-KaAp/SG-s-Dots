@@ -5,7 +5,8 @@
 #: kitty has very powerful font management. You can configure
 #: individual font faces and even specify special fonts for particular
 #: characters.
-# font_family	  JetBrains Mono Regular
+
+font_family	  JetBrains Mono Regular
 # bold_font        auto
 # italic_font      auto
 # bold_italic_font auto
@@ -2660,11 +2661,3 @@ background_image_layout cscaled
 
 #: }}}
 
-
-
-# BEGIN_KITTY_FONTS
-font_family      family='JetBrains Mono' postscript_name=JetBrainsMono-Regular
-bold_font        auto
-italic_font      auto
-bold_italic_font auto
-# END_KITTY_FONTS

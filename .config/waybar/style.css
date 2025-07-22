@@ -3,13 +3,13 @@
     font-family: "JetBrainsMono";
     font-size: 13px;
     padding: 0px 5px 0px 5px;
-    border-radius: 12px;
+    border-radius: 15px;
     opacity: 1;
     color: #2E3436;
 }
 window#waybar {
     background: rgba(0, 0, 0, 0);
-  }
+}
 .modules-left, .modules-center, .modules-right {
     background: rgba(193, 180, 146, 0.8);
     border: 2px solid rgba(193, 180, 146, 0.8);
