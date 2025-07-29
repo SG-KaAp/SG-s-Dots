@@ -6,17 +6,18 @@
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     "reload_style_on_change": true,
+    "margin-top": 15,
+    "margin-left": 15,
+    "margin-right": 15,
     // Choose the order of the modules
     "modules-left": [
+        "custom/logo",
 	    //"cpu",
 	    //"memory",
 	    "temperature",
 	    "clock",
 	    "wlr/taskbar"
     ],
-    "margin-top": 15,
-    "margin-left": 15,
-    "margin-right": 15,
     "modules-center": [
         "hyprland/window"
     ],
@@ -29,23 +30,12 @@
         "custom/swaync",
 		"custom/power"
     ],
-    // Modules configuration
-    // "sway/workspaces": {
-    //     "disable-scroll": true,
-    //     "all-outputs": true,
-    //     "warp-on-scroll": false,
-    //     "format": "{name}: {icon}",
-    //     "format-icons": {
-    //         "1": "",
-    //         "2": "",
-    //         "3": "",
-    //         "4": "",
-    //         "5": "",
-    //         "urgent": "",
-    //         "focused": "",
-    //         "default": ""
-    //     }
-    // },
+
+    "custom/logo": {
+        "format": "  ",
+        "tooltip": false,
+        "on-click": "rofi -show drun"
+    },
     "cpu": {
         "format": "{usage}% ",
         "tooltip": false,
@@ -57,7 +47,7 @@
     },
     "temperature": {
         "thermal-zone": 0,
-        "hwmon-path": "/sys/class/hwmon/hwmon5/temp1_input",
+        "hwmon-path": "/sys/class/hwmon/hwmon4/temp2_input",
         "critical-threshold": 80,
         // "format-critical": "{temperatureC}°C {icon}",
         "format": "{temperatureC}°C {icon}",
@@ -146,6 +136,6 @@
     },
     "custom/power": {
         "format" : "⏻ ",
-	    "on-click": "rofi -show power-menu -modi power-menu:rofi-power-menu"
+	    "on-click": "wlogout"
     }
 }

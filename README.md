@@ -8,7 +8,7 @@
 
 - WM: Hyprland
 - Bar: Waybar
-- Shell: ~~Fish~~ ZSH
+- Shell: ZSH
 - Terminal: Kitty
 - Notifications: SwayNotificationCenter
 - Wallpapers: Free Sources and https://www.deviantart.com/greenmapple17/art/Lain-Iwakura-Serial-Experiments-Lain-Minimalism-541711208
