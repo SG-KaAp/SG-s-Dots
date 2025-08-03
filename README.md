@@ -11,6 +11,7 @@
 - Shell: ZSH
 - Terminal: Kitty
 - Notifications: SwayNotificationCenter
+- File Manager: Dolphin
 - Wallpapers: Free Sources and https://www.deviantart.com/greenmapple17/art/Lain-Iwakura-Serial-Experiments-Lain-Minimalism-541711208
 
 # Installation
